@@ -36,4 +36,4 @@ echo "Building APK..."
 npm run prod:android
 
 
-docker cp <container_id>:/tmp/moodleapp/platforms/android/app/build/outputs/apk/debug/app-debug.apk ./app-debug.apk
+docker cp <container_id>:/tmp/moodle-customization/platforms/android/app/build/outputs/apk/debug/app-debug.apk ./app-debug.apk
